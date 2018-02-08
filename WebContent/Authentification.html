@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Autentification Admin</title>
+    <style>
+        body {
+    
+            background-image : url(pic1.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        
+        }
+        fieldset {
+            width: 500px;
+            height: 100px;
+            padding: 50px;
+            
+            border-color: rgba(255, 255,
+                            255, 0.7);
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 20px ;
+            
+            text-align: center; 
+            font-weight: bolder ;
+            font-family: Arial ;
+             margin: auto;
+            margin-top: 200px ;
+            position: relative ;
+        }
+        button {
+            display: inline-block ;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-color: white;
+            padding: 15px 32px ;
+            border-radius: 25px ;
+            font-family: Arial ;
+            font-weight: bold ;
+            color: black;    
+        }
+        button:hover {
+            border-color: #003366;
+            background-color: #003366 ;
+            
+        }
+    
+    
+    
+    </style>
+    </head>
+<body>
+    <fieldset>
+        <form method="post" action="http://localhost:8080/LocationVoiture/LoginServlet">
+            <input name="cntrl" type="hidden" value="0">
+    <label class="Username">Username : </label>
+        <input name="user" type="text" placeholder="Admin">
+        <br><br> 
+        <label class="password">Password : </label>
+        <input name="pass" type="password" placeholder="password" >
+        <br><br>
+        <button type="submit">
+        Se Connecter
+        </button>
+        </form>
+        </fieldset>
+    
+    
+    </body>
+
+
+</html>

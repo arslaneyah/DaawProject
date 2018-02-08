@@ -1,0 +1,85 @@
+<html>
+
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Enregistrement Client</title>
+        <style>
+        body {
+        		background-color:beige ;
+        
+        			}
+            label {
+                display: block ;
+                
+            }
+            fieldset {
+               	border-radius: 20px ;
+               	background-color : rgba(21, 0, 0, 0.8);
+                padding: 40px 40px 40px 40px ;
+				color : beige ;
+                width: 200px ;
+                
+                margin: auto ;
+                margin-top: 150px ;
+                position: relative ;
+                
+            }
+h1 { color: black ;
+ font-family: 'Raleway',sans-serif;
+  font-size: 62px;
+   font-weight: 800;
+    line-height: 72px; 
+    margin: 0 0 24px;
+     text-align: center;
+      text-transform: uppercase; }
+      label {
+      font-family: 'Raleway',sans-serif;}
+        
+        </style>
+    
+    </head>
+    <body>
+        <h1 align="center">Inscription</h1>
+        <form method="post" action="http://localhost:8080/LocationVoiture/InscriptionServlet">
+        <fieldset>
+        <label>identifiant</label>
+        <input name="id" type="text" >
+        <label>Nom</label>
+        <input name="nom" type="text" >
+        <label>Prénom</label>
+        <input name="prenom" type="text">
+        <label>Numéro de Téléphone</label>
+        <input name="num" type="number" >
+        <label>Mot de Passe </label>
+        <input name="mdp" type="password" >
+        <button type="submit">S'inscrire</button>
+            
+        </fieldset>
+        
+            
+            
+            
+            
+            
+            
+            
+        
+        </form>
+    
+    
+    
+    
+    
+      
+    </body>
+    
+
+
+
+
+
+
+
+
+
+</html>
